@@ -20,6 +20,7 @@ package org.apache.spark.sql.hive.client
 import java.io.{File, PrintStream}
 import java.lang.{Iterable => JIterable}
 import java.util.{Locale, Map => JMap}
+import java.util.concurrent.TimeUnit._
 
 import scala.collection.JavaConverters._
 import scala.collection.mutable
